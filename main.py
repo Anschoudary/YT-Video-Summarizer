@@ -4,7 +4,7 @@ import streamlit as st
 import google.generativeai as genai
 from IPython.display import Markdown
 from youtube_transcript_api import YouTubeTranscriptApi
-genai.configure(api_key='YOUR-API-KEY')    # google-generativeai-api
+genai.configure(api_key='AIzaSyC2hyU7GkXWUo7Yjclgt4BtLAwa8kSY-zY')    # your-google-generativeai-api
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 def transcript(link):  
