@@ -2,3 +2,4 @@
 youtube-transcript-api == 0.6.2
 google-generativeai == 0.6.0
 streamlit == 1.35.0
+ipython == 8.22.2
